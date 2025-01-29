@@ -1,0 +1,90 @@
+.inner {
+  max-width: 350px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd7c4;
+  color: #0da0d5;
+}
+
+.title__sub {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+
+.image__container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개 컬럼 */
+  grid-template-rows: repeat(5, 1fr); /* 5개 행 */
+  gap: 10px;
+  place-items: center;
+  background-color: #63cdda;
+}
+
+.image__item {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #e66767;
+  background-image: url("/public/image/ppomppu.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.modal__container {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__box {
+  position: relative;
+  border: 2px solid black;
+}
+
+.box__image {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn--close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid pink;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.btn--shuffle {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f8a5c2;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  color: #546de5;
+}
