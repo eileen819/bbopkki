@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bbopkki/static/css/main.9cc5c7cc.css",
-    "main.js": "/bbopkki/static/js/main.57149340.js",
+    "main.js": "/bbopkki/static/js/main.7c79fa31.js",
     "static/media/ppomppu.png": "/bbopkki/static/media/ppomppu.6a24235be422bd691ae7.png",
     "index.html": "/bbopkki/index.html",
     "main.9cc5c7cc.css.map": "/bbopkki/static/css/main.9cc5c7cc.css.map",
-    "main.57149340.js.map": "/bbopkki/static/js/main.57149340.js.map"
+    "main.7c79fa31.js.map": "/bbopkki/static/js/main.7c79fa31.js.map"
   },
   "entrypoints": [
     "static/css/main.9cc5c7cc.css",
-    "static/js/main.57149340.js"
+    "static/js/main.7c79fa31.js"
   ]
 }
